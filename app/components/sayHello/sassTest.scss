@@ -1,0 +1,21 @@
+/***变量***/
+$div-bg: red;
+$h1-color: #fff;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.productBox{
+	width: 100%;
+	padding:20px 0;
+	background: $div-bg;
+	color: $h1-color;
+	text-align: center;
+	h1{
+		font-size: 60px;
+	}
+	button{
+		margin-left: 30px;
+	}
+}

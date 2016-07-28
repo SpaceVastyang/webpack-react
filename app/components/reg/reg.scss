@@ -1,0 +1,23 @@
+$small: 10px;
+@mixin smallfont {
+	font-size: 14px; 
+} 
+.regForm{
+	@include smallfont;
+	margin-top: 100px;
+	p{
+		margin-bottom: $small;
+		span{
+			display: inline-block;
+			width: 100px;
+			text-align: right;
+			margin-right: $small;		
+		}
+		input{
+			padding-left: $small/2;
+		}
+		button{
+			margin-right: $small;
+		}
+	}
+}
